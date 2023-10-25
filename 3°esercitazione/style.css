@@ -86,3 +86,8 @@ aside p {
     margin-left: 25%;
     margin-right: 25%;
 }
+
+.liste h2 {
+    padding-top: 20px;
+    font-family: serif
+}
