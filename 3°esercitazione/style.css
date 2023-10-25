@@ -76,6 +76,10 @@ aside p {
     margin-top: 50px;
 }
 
+#ul_method {
+    list-style: none;
+}
+
 .liste {
     text-align: left;
     margin-left: 25%;
