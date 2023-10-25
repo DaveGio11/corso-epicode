@@ -54,7 +54,7 @@ picture p {
 /* aside */
 
 .featured {
-    border-left: solid gold;
+    border-left: solid gold 1px;
     text-align: left;
     margin-left: 25%;
     margin-right: 25%;
