@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body { 
+    margin: 0;
+}
+#contenitore {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+
+/* logo */
+#logo {
+    width: 9em;
+}
+
+/* header */
+header {
+    background-color: rgb(252, 252, 169);
+    border-top: solid yellow;
+    padding-bottom: 2px;
+    margin-top: 0.5em;
+}
+
+header p {
+    font-size: 0.6em;
+    color: rgb(7, 7, 49);
+}
+
+/* main */
+.main_content {
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.descrizione {
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+picture p {
+    color: gray;
+}
+
+#focaccia {
+    width: 680px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/* aside */
+
+.featured {
+    border-left: solid gold;
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-left: 15px;
+}
+
+aside p {
+    color: red;
+}
+
+/* article */
+
+.ingredient {
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 50px;
+}
+
+.liste {
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+}
