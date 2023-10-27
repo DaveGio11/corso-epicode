@@ -1,0 +1,177 @@
+/* Your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+html {font-size: 62.5%;}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+
+}
+
+header {
+    margin: 0;
+    text-align: center;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#logo {
+    width: 35%;
+}
+
+/* primo div */
+
+#under_header {
+    text-align: center;
+    margin: 0;
+    padding: 40px 50px;
+    background-image: url(../images/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+
+}
+
+#under_header h1 {
+    font-size: 2em;
+    padding-bottom: 15px;
+}
+
+#under_header p {
+    font-size: 1.2em;
+    padding-bottom: 30px;
+}
+
+#btn {
+    background-color: #f04c2f;
+    border-radius: 5px;
+    border: 0px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* main */
+
+main {
+    text-align: center;
+    margin: 0;
+    padding: 40px 30px;
+}
+
+main h3 {
+    padding-bottom: 15px;
+    font-size: 1.5em;
+}
+
+main p {
+    padding-bottom: 15px;
+    font-size: 1.2em;
+}
+
+#notebook {
+    border-radius: 50%;
+    width: 200px;
+    padding: 20px;
+}
+
+/* section */
+
+section {
+    text-align: center;
+    margin: 0;
+    padding: 40px 30px;
+    background-color: #e22d0e;
+    color: white;
+}
+
+section h1 {
+    font-size: 1.8em;
+    padding: 20px 0;
+    color: white;
+}
+
+section i {
+    font-style: italic;
+    padding-bottom: 15px;
+    font-size: 1.2em;
+}
+
+section h6 {
+    font-size: 1.5em;
+    padding: 15px 15px 0px 15
+}
+
+section p {
+    font-size: 0.9em
+}
+
+/* aside */
+
+aside {
+    text-align: center;
+    margin: 0;
+    padding: 40px 30px;
+}
+
+.illustr {
+    border: solid 1px #dee1e3;
+    margin: 30px 0;
+}
+
+aside img {
+    width: 100%;
+    margin: 30px 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+aside h3 {
+    padding-bottom: 15px;
+    font-size: 1.2em;
+}
+
+aside p {
+    padding-bottom: 15px;
+    font-size: 1em;
+    margin: 0 15px 15px 15px
+}
+
+/* footer */
+
+footer {
+    margin: 0;
+    text-align: center;
+    background-color: #25a2c3;
+    color: white;
+}
+
+footer h1 {
+    font-size: 2em;
+    padding-bottom: 15px;
+    padding-top: 50px;
+    color: white; 
+}
+
+footer i {padding: 0 3px;}
+
+footer a {
+    color: white;
+}
+
+footer hr {margin: 40px 100px;}
+
+footer p {
+    font-size: 0.9em;
+    padding-bottom: 40px;
+}
+
