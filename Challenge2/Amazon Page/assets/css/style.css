@@ -1,0 +1,148 @@
+/* Your styles here */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+#sfondo_logo {
+    background-color: #222F3F;
+}
+
+#logo {
+    width: 100px;
+    margin: 5px 0px 5px 15px;
+}
+
+#under_logo {
+    background-color: #364759;
+    padding: 6px 15px 6px 15px;
+    font-size: 14px;
+}
+
+.link_header {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+/* Main */
+
+main {
+    background-color: #e9edee;
+    margin: 0;
+    padding: 25px 20px;
+    padding-bottom: 0;
+    
+}
+
+/* Prima section */
+
+#intro {
+    background-color: #f56600;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+}
+
+#gift_guide {
+    background-image: url(../images/bg-image.png);
+    background-image: url(../images/bg-image.png);
+    padding: 50px 0;
+    margin: 25px 0 25px 0;
+    text-align: center;
+    color: white;
+}
+
+#gift_guide h1 {
+    padding: 20px 0px 20px 0px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#gift_guide h5 {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+/* Seconda section */
+main p {
+    padding: 0px 0px 20px 10px;
+    font-weight: bold;
+    margin-left: 5px;
+    
+}
+
+main a {
+    color: #236b77;
+    font-size: 0.8em;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+#schede {
+    padding: 20px 0 20px 7px;
+    background-color: white;
+}
+
+#box {  
+    vertical-align: top;
+}
+
+.box_img {
+    text-align: center;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.img_schede {
+    width: 290px;
+    border-radius: 15px;
+    height: 330px;
+    box-shadow: 5px 5px 10px #dce0e3;
+    object-fit: cover;
+}
+
+/* article */
+
+#illustration {
+    margin: 20px 0;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.ill_img{
+    width: 100%;
+    margin-bottom: 5px;
+    height: 310px;
+}
+
+/* aside */
+
+aside {
+    padding: 10px;
+    background-color: #364759;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+aside a {
+    color: white;
+}
+
+/* footer */
+
+#barra_finale {
+    background-color: #222f3f;
+    text-align: center;
+    padding: 50px
+}
+
+#footer_img {
+    width: 100px;
+}
+
