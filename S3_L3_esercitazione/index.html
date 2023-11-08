@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Esercitazione</title>
+</head>
+<body>
+    <main id="container">
+        <h2>To do list</h2>
+        
+            <input type="text" name="barra" placeholder="inserisci testo..." id="inputText">
+            <button onclick="addTask()" id="bottone">Aggiungi</button>
+         
+    </main>
+    <script>
+        // tre cose 
+        // 1. funzione che fa addTask
+        // 2. funzione che gestisce attachComplete (riga sbarrata)
+        // 3. una funzione che attachDelete (cancella)
+        const handleSubmit = function (e) {
+        e.preventDefault()              // evita il comportamento di default 
+        addTask()
+        attachComplete()
+        attachDelete()
+        }
+
+        const addTask = function () {
+            // agganciare gli elementi html come fatto stamattina 
+            let inputField = document.getElementById('inputText').value;
+            // stampare l'html necessario per aggiungere il value del mio campo input inputField.value
+            let containerDiv = document.getElementById('container');
+            let newP = document.createElement('p');
+            let newDiv = document.createElement('div');
+            let cestino = document.createElement('button');
+            newP.textContent = inputField;
+            containerDiv.appendChild(newDiv);
+            newDiv.appendChild(newP);
+            newP.appendChild(cestino);
+            button.classList.add('rimuovi');
+            // ogni task che aggiungo aggiunge html -> +=
+        }
+        
+
+        const attachComplete = function () {
+            let allP = document.querySelectorAll('p');
+            // aggancia gli elementi html
+            for( i=0; i<allP.length; i++) {
+                let paragrafo=allP[i];
+                allP[i].addEventListener('click', function () {allP[i].classList.toggle('paragrafo') } )
+            }      
+            // li ciclo ad esempio con for
+            // all'elemento che seleziono aggiunge|toglie una classe (toggle)
+            // https://www.w3schools.com/js/js_this.asp this per leggere il contenuto
+            // css ->   text-decoration: line-through;
+        }
+
+           
+    // all'elemento che seleziono aggiunge|toglie una classe (toggle)
+    // https://www.w3schools.com/js/js_this.asp this per leggere il contenuto
+    // css ->   text-decoration: line-through;
+
+
+        const attachDelete = function () {
+            let contenuti = document.querySelectorAll('div');
+            let rimuovi = document.getElementsByClassName('rimuovi');
+            for(i=0; i<div.length; i++) {
+                div[i].addEventListener('click', function() {
+                    contenuti[i].remove();
+                })
+            }
+            // aggancia gli elementi html
+            // ciclo for
+            // metodo per rimuovere qualcosa .remove
+        }
+
+        window.onload = function () {
+            let form = document.querySelector('form')
+            form.addEventListener('submit', handleSubmit)
+        }
+    </script>
+</body>
+</html>

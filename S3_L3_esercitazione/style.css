@@ -1,0 +1,14 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+   
+    
+}
+
+#container {
+    background-color: white;
+    margin:  15% 30% 20% 30%;
+    padding: 5% 0;
+    border: solid 1px gold;
+}
+
