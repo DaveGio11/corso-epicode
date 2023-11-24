@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Spectral:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* svg {
+  width: ;
+} */
+
+header {
+  background-color: #ffc017;
+
+  position: sticky;
+  z-index: 99;
+  top: 0;
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4em 9em;
+}
+
+.diventaBianca {
+  background-color: white;
+}
+
+.diventaVerde {
+  background-color: green !important;
+}
+
+.textBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textBar a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+}
+
+#bottone {
+  background-color: black;
+  color: white;
+  height: 2.5em;
+  width: 100px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+header hr {
+  margin: 0;
+  border-color: black;
+}
+
+/* --------------------------------------Intestazione---------------------------------------------- */
+#containerPrimo {
+  margin: 0;
+  background-color: #ffc017;
+  width: 100%;
+  padding-bottom: 30px;
+  display: flex;
+}
+
+.stelline img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#containerPrimo hr {
+  margin: 0;
+  border-color: black;
+}
+
+.intestazione {
+  display: flex;
+  margin-left: 5em;
+}
+
+.title {
+  margin-block-start: 5%;
+  margin-left: 10%;
+}
+
+h1 {
+  font-family: "Spectral", serif;
+  font-size: 5.5em;
+  letter-spacing: -5px;
+}
+
+.title p {
+  font-size: 1.2em;
+  padding: 1.3em 0;
+}
+
+.title button {
+  color: white;
+  background-color: black;
+  height: 2em;
+  width: 10em;
+  border-radius: 40px;
+  font-size: 18px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+/*--------------------------------------------------- MAIN ----------------------------------------------------*/
+section {
+  padding: 50px 10%;
+}
+
+.initialMain {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#trending {
+  width: 25px;
+  margin-right: 10px;
+}
+
+h5 {
+  font-weight: 900;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.totalSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.sectionContainer {
+  display: flex;
+  margin-bottom: 40px;
+  margin-right: 50px;
+}
+
+.numberSection {
+  font-weight: bold;
+  font-size: 1.6em;
+  color: lightgray;
+  margin-right: 10px;
+}
+
+.titolino {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.titolino img {
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+h6 {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+h4 {
+  font-weight: 900;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+i {
+  color: gray;
+  font-size: 11px;
+}
+
+.dataTime {
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  margin: 0;
+}
+
+/*------------------------------------------ARTICLE------------------------------------------------------*/
+
+.divTerzo {
+  padding: 50px 10%;
+  display: flex;
+}
+
+.containerArticle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+
+.imgCA {
+  width: 200px;
+  height: 150px;
+  margin: 0 25px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.containerArticle p {
+  color: gray;
+  font-size: 0.8em;
+  line-height: 1.2em;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+code {
+  color: gray;
+  font-size: 11px;
+  background-color: lightgray;
+  padding: 4px 7px;
+  border-radius: 40px;
+}
+
+.dataClass {
+  display: flex;
+  align-items: center;
+}
+
+.dataClassText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dataClassLogo {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bloccoDx {
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+}
+
+.divDx {
+  margin-bottom: 30px;
+}
+
+.divDx a {
+  text-decoration: none;
+  color: gray;
+  border: 1px solid gray;
+  font-size: 10px;
+  padding: 7px;
+}
+
+.divDx p {
+  margin-block-start: 10px;
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.divDx h5 {
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.ultimoDiv {
+  margin-top: 20px;
+}
+
+.ultimoDiv a {
+  text-decoration: none;
+  color: gray;
+  font-size: 12px;
+}
+
+.ultimoDiv p {
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .stelline img {
+    width: 50%;
+    height: 100%;
+  }
+
+  .intestazione {
+    display: flex;
+    margin-left: 5em;
+    width: 20%;
+  }
+
+  h1 {
+    font-size: 4em;
+  }
+}
